@@ -1,0 +1,21 @@
+ @import '../variables.scss';
+
+ header {
+     position: absolute;
+     top: 2em;
+     right: 2em;
+ }
+
+ .drawer {
+     a:any-link {
+         color: $font-secondary-color;
+
+     }
+ }
+
+ #drawer-links {
+     display: flex;
+     flex-direction: column;
+     gap: 1em;
+     font-size: 2em;
+ }

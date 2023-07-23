@@ -2,6 +2,10 @@
 @import './variables';
 //@import './animations/background.scss';
 @import './animations/welcome.scss';
+@import './routes/Home';
+@import './commons/Page.scss';
+@import './routes/Root';
+
 
 body {
     min-height: 100vh;
