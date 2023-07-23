@@ -1,0 +1,34 @@
+@import './config';
+@import './variables';
+//@import './animations/background.scss';
+@import './animations/welcome.scss';
+
+body {
+    min-height: 100vh;
+    width: 100%;
+    overflow-x: hidden;
+    scroll-behavior: smooth;
+    box-sizing: border-box;
+    background-color: $bg-primary-color;
+}
+
+h1, h2, h3, h4, h5, h6{
+    color: $font-primary-color;
+    font-family: $font-monospace;
+}
+
+p, :any-link {
+ color: $font-primary-color;
+ font-family: $font-primary-family;
+}
+
+#root {
+    min-height: 100vh;
+    width: 100%;
+    overflow-x: hidden;
+}
+
+iframe {
+    display: none;
+}
+
