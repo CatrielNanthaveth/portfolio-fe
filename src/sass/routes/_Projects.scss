@@ -1,0 +1,36 @@
+@import '../variables.scss';
+
+.projects {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: 100vh;
+}
+
+.project-tag {
+    margin-top: 10px;
+    background-color: aliceblue;
+}
+
+.project-card {
+    margin: auto;
+    height: 50vh;
+    width: 50%;
+    border: 3px solid rgb(105, 105, 105);
+    padding: 10px;
+    background-color: rgb(83, 83, 83);
+}
+
+@media screen and (max-width: 1023px) {
+    .project-card {
+        margin: auto;
+        height: 70vh;
+        width: 80%;
+        border: 3px solid rgb(105, 105, 105);
+        padding: 10px;
+        background-color: rgb(83, 83, 83);
+    }
+    .project-tag {
+        size: 10px;
+    }
+}
