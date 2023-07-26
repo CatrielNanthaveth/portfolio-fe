@@ -27,7 +27,6 @@ export const Root = () => {
             <Link to='/' onClick={onClose}>Home</Link>
             <Link to='/projects' onClick={onClose}>Projects</Link>
             <Link to='/aboutme' onClick={onClose}>About me</Link>
-            <Link to='/contact' onClick={onClose}>Contact</Link>
           </div>
         </Drawer>
       </header>
