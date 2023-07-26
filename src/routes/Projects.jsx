@@ -66,8 +66,9 @@ export const Projects = () => {
                         <p className="card-text">We did it with the Scrum methodology and a five members team + a teacher who work as Scrum Master.</p>
 
 
-                        <Tag className="project-tag">Python</Tag>
-                        <Tag className="project-tag">Pygame</Tag>
+                        <Tag className="project-tag">ReactJS</Tag>
+                        <Tag className="project-tag">Axios</Tag>
+                        <Tag className="project-tag">Redux</Tag>
                         <Tag className="project-tag">HTML</Tag>
                         <Tag className="project-tag">CSS</Tag>
 
