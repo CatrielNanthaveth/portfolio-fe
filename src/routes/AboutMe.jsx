@@ -39,7 +39,7 @@ export const AboutMe = () => {
             <Carousel>
 
                 {data.map(e => {
-                    return <div>
+                    return <div key={e.name}>
                         <Card className="project-card"
                             title={<h1>{e.name}</h1>}
                             extra={e.extra}

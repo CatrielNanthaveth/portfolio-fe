@@ -26,6 +26,7 @@ export const Root = () => {
           <div id="drawer-links">
             <Link to='/' onClick={onClose}>Home</Link>
             <Link to='/projects' onClick={onClose}>Projects</Link>
+            <Link to='/knowledge' onClick={onClose}>Knowledge</Link>
             <Link to='/aboutme' onClick={onClose}>About me</Link>
           </div>
         </Drawer>

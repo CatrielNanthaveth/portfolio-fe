@@ -33,7 +33,7 @@ export const Projects = () => {
         <div className='projects'>
             <Carousel>
                 {projects.map(e => {
-                    return <div>
+                    return <div key={e.name}>
                         <Card className="project-card"
                             title={<h1>{e.name}</h1>}
                             extra={<a href={e.link} rel="noreferrer" target="_blank">Github</a>}
